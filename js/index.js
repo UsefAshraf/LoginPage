@@ -30,7 +30,7 @@ function registerUser(event) {
   Emails.push(newUser);
   localStorage.setItem("Emails", JSON.stringify(Emails));
   messageElement.classList.remove("visually-hidden", "text-danger");
-  //messageElement.classList.add("text-success");
+  messageElement.classList.add("text-success");
   messageElement.textContent = "Registration successful!";
   registerForm.reset();
 }
