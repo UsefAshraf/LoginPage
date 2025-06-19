@@ -1,0 +1,21 @@
+@media screen and (width<640px) {
+    .container{
+        grid-template-areas: 
+    "item-1 item-1 item-1 item-1"
+    "item-2 item-2 item-2 item-2"
+    "item-3 item-3 item-3 item-3"
+    "item-4 item-4 item-4 item-4";
+    }
+}
+@media screen and (640px<=width<768px) {
+    
+}
+@media screen and (768px<=width<1024px) {
+    
+}
+@media screen and (1024px<=width<1280px) {
+    
+}
+@media screen and (1280px<=width<1536px) {
+    
+}
